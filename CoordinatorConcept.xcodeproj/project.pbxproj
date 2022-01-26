@@ -15,6 +15,34 @@
 		2964528627994B7600F39570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2964528427994B7600F39570 /* LaunchScreen.storyboard */; };
 		2964529127994B7700F39570 /* CoordinatorConceptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964529027994B7700F39570 /* CoordinatorConceptTests.swift */; };
 		2964529C27994B7700F39570 /* CoordinatorConceptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964529B27994B7700F39570 /* CoordinatorConceptUITests.swift */; };
+		296452B32799932E00F39570 /* LoginWithEmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452B22799932E00F39570 /* LoginWithEmailController.swift */; };
+		296452B82799945D00F39570 /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452B72799945D00F39570 /* ForgotPasswordController.swift */; };
+		296452C02799947B00F39570 /* ResetPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452BF2799947B00F39570 /* ResetPasswordController.swift */; };
+		296452C52799949600F39570 /* LoginWithMagicLinkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452C42799949600F39570 /* LoginWithMagicLinkController.swift */; };
+		296452CA279994A900F39570 /* MagicLinkConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452C9279994A900F39570 /* MagicLinkConfirmationController.swift */; };
+		296452CF2799957600F39570 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452CE2799957600F39570 /* AuthCoordinator.swift */; };
+		296452D72799959900F39570 /* EmailAuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452D62799959900F39570 /* EmailAuthCoordinator.swift */; };
+		296452DC279995A700F39570 /* MagicLinkAuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452DB279995A700F39570 /* MagicLinkAuthCoordinator.swift */; };
+		296452E3279996CA00F39570 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452E2279996CA00F39570 /* Coordinator.swift */; };
+		296452E82799976800F39570 /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452E72799976800F39570 /* StoryBoarded.swift */; };
+		296452ED279AB87200F39570 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452EC279AB87200F39570 /* Navigator.swift */; };
+		296452F2279AC4BB00F39570 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452F1279AC4BB00F39570 /* AppCoordinator.swift */; };
+		29645300279B056F00F39570 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296452FF279B056F00F39570 /* BaseCoordinator.swift */; };
+		29645306279B059E00F39570 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29645305279B059E00F39570 /* DeepLinkOption.swift */; };
+		2964530E279B066500F39570 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964530D279B066500F39570 /* ViewControllerFactory.swift */; };
+		29645313279B067200F39570 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29645312279B067200F39570 /* CoordinatorFactory.swift */; };
+		29645319279C7E2500F39570 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29645318279C7E2500F39570 /* Router.swift */; };
+		2964531E279C7E4A00F39570 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964531D279C7E4A00F39570 /* Presentable.swift */; };
+		29645323279C7E5700F39570 /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29645322279C7E5700F39570 /* RouterProtocol.swift */; };
+		2964532B279D33BE00F39570 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964532A279D33BE00F39570 /* ServiceFactory.swift */; };
+		29645333279EB06900F39570 /* LaunchInstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29645332279EB06900F39570 /* LaunchInstructor.swift */; };
+		2971CDF327A0047300D46959 /* UIViewController+Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CDF227A0047300D46959 /* UIViewController+Presentable.swift */; };
+		2971CDF927A1552D00D46959 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CDF827A1552D00D46959 /* ViewModelFactory.swift */; };
+		2971CDFE27A1608E00D46959 /* LoginWithMagicLinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CDFD27A1608E00D46959 /* LoginWithMagicLinkViewModel.swift */; };
+		2971CE0327A160A300D46959 /* MagicLinkConfirmationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE0227A160A300D46959 /* MagicLinkConfirmationViewModel.swift */; };
+		2971CE0827A160A900D46959 /* LoginWithEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE0727A160A900D46959 /* LoginWithEmailViewModel.swift */; };
+		2971CE0D27A160B000D46959 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE0C27A160B000D46959 /* ForgotPasswordViewModel.swift */; };
+		2971CE1227A160B500D46959 /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971CE1127A160B500D46959 /* ResetPasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +77,34 @@
 		2964529727994B7700F39570 /* CoordinatorConceptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorConceptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2964529B27994B7700F39570 /* CoordinatorConceptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorConceptUITests.swift; sourceTree = "<group>"; };
 		2964529D27994B7700F39570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296452B22799932E00F39570 /* LoginWithEmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithEmailController.swift; sourceTree = "<group>"; };
+		296452B72799945D00F39570 /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		296452BF2799947B00F39570 /* ResetPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordController.swift; sourceTree = "<group>"; };
+		296452C42799949600F39570 /* LoginWithMagicLinkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithMagicLinkController.swift; sourceTree = "<group>"; };
+		296452C9279994A900F39570 /* MagicLinkConfirmationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLinkConfirmationController.swift; sourceTree = "<group>"; };
+		296452CE2799957600F39570 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		296452D62799959900F39570 /* EmailAuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAuthCoordinator.swift; sourceTree = "<group>"; };
+		296452DB279995A700F39570 /* MagicLinkAuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLinkAuthCoordinator.swift; sourceTree = "<group>"; };
+		296452E2279996CA00F39570 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		296452E72799976800F39570 /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
+		296452EC279AB87200F39570 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		296452F1279AC4BB00F39570 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		296452FF279B056F00F39570 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		29645305279B059E00F39570 /* DeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		2964530D279B066500F39570 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		29645312279B067200F39570 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		29645318279C7E2500F39570 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2964531D279C7E4A00F39570 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		29645322279C7E5700F39570 /* RouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		2964532A279D33BE00F39570 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		29645332279EB06900F39570 /* LaunchInstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchInstructor.swift; sourceTree = "<group>"; };
+		2971CDF227A0047300D46959 /* UIViewController+Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Presentable.swift"; sourceTree = "<group>"; };
+		2971CDF827A1552D00D46959 /* ViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
+		2971CDFD27A1608E00D46959 /* LoginWithMagicLinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithMagicLinkViewModel.swift; sourceTree = "<group>"; };
+		2971CE0227A160A300D46959 /* MagicLinkConfirmationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicLinkConfirmationViewModel.swift; sourceTree = "<group>"; };
+		2971CE0727A160A900D46959 /* LoginWithEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithEmailViewModel.swift; sourceTree = "<group>"; };
+		2971CE0C27A160B000D46959 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		2971CE1127A160B500D46959 /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +155,19 @@
 		2964527827994B6D00F39570 /* CoordinatorConcept */ = {
 			isa = PBXGroup;
 			children = (
+				2964528727994B7600F39570 /* Info.plist */,
 				2964527927994B6D00F39570 /* AppDelegate.swift */,
 				2964527B27994B6D00F39570 /* SceneDelegate.swift */,
 				2964527D27994B6D00F39570 /* ViewController.swift */,
-				2964527F27994B6D00F39570 /* Main.storyboard */,
-				2964528227994B7600F39570 /* Assets.xcassets */,
-				2964528427994B7600F39570 /* LaunchScreen.storyboard */,
-				2964528727994B7600F39570 /* Info.plist */,
+				296452FE279B055600F39570 /* Coordinators */,
+				29645304279B058500F39570 /* Enums */,
+				2971CDF127A0045000D46959 /* Extensions */,
+				2964530C279B064E00F39570 /* Factories */,
+				296452E1279996A900F39570 /* Protocols */,
+				2964530A279B061900F39570 /* Resources */,
+				29645317279C7E1000F39570 /* Router */,
+				296452E0279996A300F39570 /* Scenes */,
+				2971CDF727A1550300D46959 /* ViewModels */,
 			);
 			path = CoordinatorConcept;
 			sourceTree = "<group>";
@@ -126,6 +188,132 @@
 				2964529D27994B7700F39570 /* Info.plist */,
 			);
 			path = CoordinatorConceptUITests;
+			sourceTree = "<group>";
+		};
+		296452AC279991A100F39570 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				296452AE279991C000F39570 /* EmailAuth */,
+				296452AD279991B100F39570 /* MagicLinkAuth */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		296452AD279991B100F39570 /* MagicLinkAuth */ = {
+			isa = PBXGroup;
+			children = (
+				296452C42799949600F39570 /* LoginWithMagicLinkController.swift */,
+				296452C9279994A900F39570 /* MagicLinkConfirmationController.swift */,
+			);
+			path = MagicLinkAuth;
+			sourceTree = "<group>";
+		};
+		296452AE279991C000F39570 /* EmailAuth */ = {
+			isa = PBXGroup;
+			children = (
+				296452B72799945D00F39570 /* ForgotPasswordController.swift */,
+				296452B22799932E00F39570 /* LoginWithEmailController.swift */,
+				296452BF2799947B00F39570 /* ResetPasswordController.swift */,
+			);
+			path = EmailAuth;
+			sourceTree = "<group>";
+		};
+		296452E0279996A300F39570 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				296452AC279991A100F39570 /* Auth */,
+				2964530B279B063400F39570 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		296452E1279996A900F39570 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				296452E2279996CA00F39570 /* Coordinator.swift */,
+				296452EC279AB87200F39570 /* Navigator.swift */,
+				2964531D279C7E4A00F39570 /* Presentable.swift */,
+				29645322279C7E5700F39570 /* RouterProtocol.swift */,
+				296452E72799976800F39570 /* StoryBoarded.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		296452FE279B055600F39570 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				296452F1279AC4BB00F39570 /* AppCoordinator.swift */,
+				296452CE2799957600F39570 /* AuthCoordinator.swift */,
+				296452FF279B056F00F39570 /* BaseCoordinator.swift */,
+				296452D62799959900F39570 /* EmailAuthCoordinator.swift */,
+				296452DB279995A700F39570 /* MagicLinkAuthCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		29645304279B058500F39570 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				29645305279B059E00F39570 /* DeepLinkOption.swift */,
+				29645332279EB06900F39570 /* LaunchInstructor.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2964530A279B061900F39570 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2964527F27994B6D00F39570 /* Main.storyboard */,
+				2964528427994B7600F39570 /* LaunchScreen.storyboard */,
+				2964528227994B7600F39570 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2964530B279B063400F39570 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2964530C279B064E00F39570 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				29645312279B067200F39570 /* CoordinatorFactory.swift */,
+				2964532A279D33BE00F39570 /* ServiceFactory.swift */,
+				2964530D279B066500F39570 /* ViewControllerFactory.swift */,
+				2971CDF827A1552D00D46959 /* ViewModelFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		29645317279C7E1000F39570 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				29645318279C7E2500F39570 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2971CDF127A0045000D46959 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2971CDF227A0047300D46959 /* UIViewController+Presentable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2971CDF727A1550300D46959 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2971CE0C27A160B000D46959 /* ForgotPasswordViewModel.swift */,
+				2971CE0727A160A900D46959 /* LoginWithEmailViewModel.swift */,
+				2971CDFD27A1608E00D46959 /* LoginWithMagicLinkViewModel.swift */,
+				2971CE0227A160A300D46959 /* MagicLinkConfirmationViewModel.swift */,
+				2971CE1127A160B500D46959 /* ResetPasswordViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +446,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2964530E279B066500F39570 /* ViewControllerFactory.swift in Sources */,
+				2971CDF927A1552D00D46959 /* ViewModelFactory.swift in Sources */,
+				296452C52799949600F39570 /* LoginWithMagicLinkController.swift in Sources */,
+				296452DC279995A700F39570 /* MagicLinkAuthCoordinator.swift in Sources */,
+				296452B82799945D00F39570 /* ForgotPasswordController.swift in Sources */,
+				296452B32799932E00F39570 /* LoginWithEmailController.swift in Sources */,
+				296452D72799959900F39570 /* EmailAuthCoordinator.swift in Sources */,
+				29645313279B067200F39570 /* CoordinatorFactory.swift in Sources */,
+				296452C02799947B00F39570 /* ResetPasswordController.swift in Sources */,
+				296452CA279994A900F39570 /* MagicLinkConfirmationController.swift in Sources */,
+				296452ED279AB87200F39570 /* Navigator.swift in Sources */,
+				29645323279C7E5700F39570 /* RouterProtocol.swift in Sources */,
+				29645306279B059E00F39570 /* DeepLinkOption.swift in Sources */,
+				296452E82799976800F39570 /* StoryBoarded.swift in Sources */,
+				29645319279C7E2500F39570 /* Router.swift in Sources */,
 				2964527E27994B6D00F39570 /* ViewController.swift in Sources */,
+				2971CE1227A160B500D46959 /* ResetPasswordViewModel.swift in Sources */,
+				2971CE0D27A160B000D46959 /* ForgotPasswordViewModel.swift in Sources */,
+				2971CDFE27A1608E00D46959 /* LoginWithMagicLinkViewModel.swift in Sources */,
+				2964532B279D33BE00F39570 /* ServiceFactory.swift in Sources */,
+				2971CDF327A0047300D46959 /* UIViewController+Presentable.swift in Sources */,
+				296452E3279996CA00F39570 /* Coordinator.swift in Sources */,
+				2971CE0827A160A900D46959 /* LoginWithEmailViewModel.swift in Sources */,
 				2964527A27994B6D00F39570 /* AppDelegate.swift in Sources */,
+				296452F2279AC4BB00F39570 /* AppCoordinator.swift in Sources */,
+				296452CF2799957600F39570 /* AuthCoordinator.swift in Sources */,
 				2964527C27994B6D00F39570 /* SceneDelegate.swift in Sources */,
+				2971CE0327A160A300D46959 /* MagicLinkConfirmationViewModel.swift in Sources */,
+				29645300279B056F00F39570 /* BaseCoordinator.swift in Sources */,
+				2964531E279C7E4A00F39570 /* Presentable.swift in Sources */,
+				29645333279EB06900F39570 /* LaunchInstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
